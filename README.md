@@ -14,7 +14,7 @@ Teknik Detaylar daha sonra yazılacaktır.
 
 - Projeyi klonlayın.
 
-     ```  https://github.com/zynpnd/react-project-recipe.git```
+     ``` git clone https://github.com/zynpnd/react-project-recipe.git```
 - Npm' yükleyin.
 
    ``` npm install ```
