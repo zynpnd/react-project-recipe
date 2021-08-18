@@ -7,7 +7,7 @@ Proje kapsamı daha sonra yazılacaktır.
 
 ## Teknik Detaylar
 
-Teknik Detaylar daha sonra yazılacaktır.
+Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır. API istekleri için axios kütüphanesinden yararlanılmıştır.
 
 
 ## Çalıştırılması
@@ -21,6 +21,8 @@ Teknik Detaylar daha sonra yazılacaktır.
 - Uygulamayı çalıştırın.
 
    ``` npm start ```
+   
+   API'ye [buraya](https://developer.edamam.com/edamam-recipe-api) tıklayarak ulaşabilirsiniz.
    
 ## Dosya Yapısı
 
