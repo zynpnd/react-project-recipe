@@ -1,8 +1,8 @@
-# 94. İstanbul Front-End Web Development Bootcamp Bitirme Projesi
+# 94. İstanbul Front-End Web Development Bootcamp Bitirme Projesi ---  Recipe App
 
 ## Proje Kapsamı
 
-Proje kapsamı daha sonra yazılacaktır.
+Recipe App bir yemek tarifi arama ve listeleme projesidir. Sitenin ana sayfasında arama butonu ile arama işleminin olduğu sayfaya yönlendirmektedir. Arama butonu ile gidilen sayfa da default olarak bir yemek tarifi listelenmektedir. Arama işlemine göre yemek tarifleri  ve malzemeleri listelenmektedir.
 
 
 ## Teknik Detaylar
