@@ -10,9 +10,7 @@ function Navbar() {
         <a href="#" class="brand-logo center">
           <img src={logo} alt="logo" />
         </a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-          <i class="material-icons">menu</i>
-        </a>
+       
       </div>
       <div class="nav-content">
         <ul class="tabs tabs-transparent">
@@ -24,6 +22,11 @@ function Navbar() {
           <li class="tab">
             <Link className="nav-link" to="/recipes">
               Recipes
+            </Link>
+          </li>
+          <li class="tab">
+            <Link className="nav-link" to="/contact">
+              Contact
             </Link>
           </li>
         </ul>

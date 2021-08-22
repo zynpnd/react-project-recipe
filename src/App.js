@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Recipes from "./pages/Recipes";
 import Default from "./pages/Default";
 import Login from "./pages/Login";
+import Contact from "./pages/Contact";
 
 const App = () =>{
 
@@ -26,6 +27,7 @@ const App = () =>{
              </Route>  */}
            <Route path="/" exact component={Home}></Route>
             <Route path="/recipes" component={Recipes}></Route>
+            <Route path="/contact" component={Contact}></Route>
             <Route component={Default}></Route>
           </Switch>
           <Footer />
