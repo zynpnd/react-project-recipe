@@ -76,4 +76,79 @@ nav.nav-extended .nav-wrapper {
   padding: 6px 16px;
   font-size: 15px;
   margin-left: 6px;
+ 
+}
+
+
+
+
+
+/* LOGİN*/
+
+.login-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  color: #ffffff;
+}
+
+.login-form{
+  border: 1px solid #E1E8ED;
+  border-radius: 10px;
+  padding: 50px;
+  width: 50vw;
+  margin: 0 auto;
+  color: #F7F7F0;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.login-form input{
+  margin-bottom: 10px;
+}
+
+.login-form ::-webkit-input-placeholder{
+  font-size: 14px;
+}
+
+.user-name-input,
+.password-input{
+  width: 100%;
+  padding: 10px;
+
+  border: 1px solid lightgrey;
+  color: white;
+}
+
+.user-name-input:focus,
+.password-input:focus{
+  border: 1px solid #F7F4F0;
+  outline: none;
+}
+
+.login-submit-button{
+  width: 100%;
+  background: #AB9984;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+.login-submit-button:hover{
+  background-color: #C4AF97;
+}
+
+
+
+.login-icon-wrapper {
+  margin-bottom: 20px;
 }

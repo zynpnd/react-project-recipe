@@ -1,0 +1,22 @@
+[
+    {
+      "name": "Admin admin",
+      "username": "admin",
+      "password": "admin",
+      "profilePicture": "http://lorempixel.com/400/200/"
+    },
+    {
+      "name": "Lorem",
+      "username": "ipsum",
+      "password": "123456",
+      "profilePicture": "http://lorempixel.com/400/200/"
+    },
+    {
+      "name": "user",
+      "username": "user",
+      "password": "123456",
+      "profilePicture": "http://lorempixel.com/400/200/"
+    }
+    
+  ]
+  

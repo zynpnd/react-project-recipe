@@ -7,7 +7,7 @@ const RecipeList = (props) => {
     <>
       <div className="col-10 mx-auto col-md-6 col-lg-4 my-3">
         <div className="row">
-          <div class="col s12 m8">
+          <div class="col s10 m8">
             <div class="card ">
               <div class="card-image">
                 <img class="activator" src={image} />

@@ -10,9 +10,10 @@ const Search = (props) => {
             placeholder="search"
             value={search}
             onChange={handleChange}
+            required
           />
           <button className="searchSubmit" type="submit">
-            Search
+          <i class="fas fa-search"></i>
           </button>
 
         </form>
