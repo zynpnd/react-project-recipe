@@ -2,20 +2,25 @@ import React from "react";
 import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 
-function Navbar({ styleClass }) {
+function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <Link to="/" className={`navbar-brand ${styleClass}`}>
-        <img src={logo} alt="logo" />
-      </Link>
-      <div className="collapse navbar-collapse show ml-sm-5">
-        <ul className="navbar-nav">
-          <li className="navbar-item">
+    <nav class="nav-extended">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo center">
+          <img src={logo} alt="logo" />
+        </a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+      <div class="nav-content">
+        <ul class="tabs tabs-transparent">
+          <li class="tab">
             <Link className="nav-link" to="/">
               Home
             </Link>
           </li>
-          <li className="navbar-item">
+          <li class="tab">
             <Link className="nav-link" to="/recipes">
               Recipes
             </Link>
