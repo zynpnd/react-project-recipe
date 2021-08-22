@@ -13,7 +13,6 @@ function Navbar() {
         <a href="#" data-target="mobile-demo" class="sidenav-trigger">
           <i class="material-icons">menu</i>
         </a>
-        
       </div>
       <div class="nav-content">
         <ul class="tabs tabs-transparent">
@@ -30,7 +29,6 @@ function Navbar() {
         </ul>
       </div>
     </nav>
-  
   </>
   );
 }
