@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
+    <>
     <nav class="nav-extended">
       <div class="nav-wrapper">
         <a href="#" class="brand-logo center">
@@ -12,6 +13,7 @@ function Navbar() {
         <a href="#" data-target="mobile-demo" class="sidenav-trigger">
           <i class="material-icons">menu</i>
         </a>
+        
       </div>
       <div class="nav-content">
         <ul class="tabs tabs-transparent">
@@ -28,6 +30,8 @@ function Navbar() {
         </ul>
       </div>
     </nav>
+  
+  </>
   );
 }
 export default Navbar;
