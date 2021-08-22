@@ -4,8 +4,9 @@ import Search from "../components/Search";
 import RecipeList from "../components/RecipeList";
 
 const Recipes = () => {
-  const [search, setSearch] = useState("");
+  
   const [recipes, setRecipes] = useState([]);
+  const [search, setSearch] = useState("");
   const [query, setQuery] = useState("chicken");
 
   useEffect(() => {
@@ -22,12 +23,13 @@ const Recipes = () => {
 
   const handleChange = (e) => {
     setSearch(e.target.value);
-    //console.log(e.target.value);
+    console.log(e.target.value);
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setQuery(search);
+   
   };
 
   return (
@@ -44,7 +46,7 @@ const Recipes = () => {
       </div>
       {recipes.map((recipe) => (
         <RecipeList
-          key={recipe.recipe.yield}
+          key={recipe.recipe.id}
           title={recipe.recipe.label}
           calories={recipe.recipe.calories}
           image={recipe.recipe.image}
@@ -52,6 +54,8 @@ const Recipes = () => {
           url={recipe.recipe.url}
           ingredients={recipe.recipe.ingredients}
           mealType={recipe.recipe.mealType}
+          
+          totalTime ={recipe.recipe.totalTime}
         />
       ))}
     </div>
