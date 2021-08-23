@@ -26,20 +26,13 @@ Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır. API i
    
 ## Dosya Yapısı
 
-  .
+    .
     ├── ...
-    
     ├── src   
-    
     │   ├── assets   
-    
-    │   │   ├── 404-images.jpg
-    
-    │   │   ├── home-images.jpg
-    
+    │   │   ├── 404-images.jpg 
+    │   │   ├── home-images.jpg 
     │   │   ├── logo.png
-    
-    
     │   ├── components                      
     │   │   ├── Footer.js
     │   │   ├── Header.js
