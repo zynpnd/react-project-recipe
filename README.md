@@ -2,7 +2,7 @@
 
 ## Proje Kapsamı
 
-Recipe App bir yemek tarifi arama ve listeleme projesidir. Sitenin ana sayfasında arama butonu ile arama işleminin olduğu sayfaya yönlendirmektedir. Arama butonu ile gidilen sayfa da default olarak bir yemek tarifi listelenmektedir. Arama işlemine göre yemek tarifleri  ve malzemeleri listelenmektedir.
+Recipe App bir yemek tarifi arama  projesidir. Sitenin ana sayfasında arama butonu ile arama işleminin olduğu sayfaya yönlendirmektedir. Arama butonu ile gidilen sayfa da default olarak bir yemek tarifi listelenmektedir. Arama işlemine göre yemek tarifleri , malzemeleri , toplam zamanı ve yemeğin türü listelenmektedir.
 
 
 ## Teknik Detaylar
@@ -26,4 +26,24 @@ Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır. API i
    
 ## Dosya Yapısı
 
-Dosya Yapısı daha sonra yazılacaktır.
+  .
+    ├── ...
+    ├── src    
+    │   ├── assets                      
+    │   │   ├── 404-images.jpg
+    │   │   ├── home-images.jpg
+    │   │   ├── logo.png
+    │   ├── components                      
+    │   │   ├── Footer.js
+    │   │   ├── Header.js
+    │   │   ├── Navbar.js
+    │   │   ├── RecipeList.js
+    │   │   ├── Search.js
+    │   ├── pages
+    │   │   ├── Default.js
+    │   │   ├── Home.js
+    │   │   ├── Login.js
+    │   │   ├── Recipes.js
+    │   ├── App.js                          
+    │   └── ...                             
+    └── ...
