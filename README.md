@@ -28,11 +28,18 @@ Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır. API i
 
   .
     ├── ...
-    ├── src    
-    │   ├── assets                      
+    
+    ├── src   
+    
+    │   ├── assets   
+    
     │   │   ├── 404-images.jpg
+    
     │   │   ├── home-images.jpg
+    
     │   │   ├── logo.png
+    
+    
     │   ├── components                      
     │   │   ├── Footer.js
     │   │   ├── Header.js
