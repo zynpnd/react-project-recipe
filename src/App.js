@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -11,19 +16,23 @@ import Login from "./pages/Login";
 import Contact from "./pages/Contact";
 
 const App = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(
-    JSON.parse(localStorage.getItem("isLoggedIn"))
-  );
+  let initialLoggin = JSON.parse(localStorage.getItem("isLoggedIn"));
+  const [isLoggedIn, setisLoggedIn] = useState(initialLoggin || null);
 
   return (
     <Router>
       <main>
         {/* navbar */}
+        <Route path="/login">
+          <Login setisLoggedIn={setisLoggedIn} />
+        </Route>
+        <Redirect from="*" to="/login" />
         <Navbar />
         <Switch>
           {/* <Route  path="/login" >
             <Login/>
              </Route>  */}
+
           <Route path="/" exact component={Home}></Route>
           <Route path="/recipes" component={Recipes}></Route>
           <Route path="/contact" component={Contact}></Route>
