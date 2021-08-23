@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 
-// login olma
+// lgin olma kısmı
 const Login = ({ setisLoggedIn }) => {
   console.log("render oldu");
 
