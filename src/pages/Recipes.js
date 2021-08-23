@@ -4,21 +4,27 @@ import Search from "../components/Search";
 import RecipeList from "../components/RecipeList";
 
 const Recipes = () => {
-  
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("chicken");
+  const [validate, setValidate] = useState(true);
+
+  console.log(validate);
 
   useEffect(() => {
     getRecipes();
   }, [query]);
 
   const getRecipes = async () => {
-    const response = await Axios.get(
-      `https://api.edamam.com/api/recipes/v2?type=public&q=${query}&app_id=${process.env.REACT_APP_API_ID}&app_key=${process.env.REACT_APP_API_KEY}`
-    );
-    setRecipes(response.data.hits);
-    // console.log(response.data.hits);
+    try {
+      const response = await Axios.get(
+        `https://api.edamam.com/api/recipes/v2?type=public&q=${query}&app_id=${process.env.REACT_APP_API_ID}&app_key=${process.env.REACT_APP_API_KEY}`
+      );
+      setRecipes(response.data.hits);
+      // console.log(response.data.hits);
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   const handleChange = (e) => {
@@ -29,7 +35,7 @@ const Recipes = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setQuery(search);
-   
+    setValidate(false);
   };
 
   return (
@@ -44,6 +50,7 @@ const Recipes = () => {
           <h1 className="text-slanted">Recipe List</h1>
         </div>
       </div>
+
       {recipes.map((recipe) => (
         <RecipeList
           key={recipe.recipe.id}
@@ -54,10 +61,27 @@ const Recipes = () => {
           url={recipe.recipe.url}
           ingredients={recipe.recipe.ingredients}
           mealType={recipe.recipe.mealType}
-          
-          totalTime ={recipe.recipe.totalTime}
+          totalTime={recipe.recipe.totalTime}
         />
       ))}
+      {validate === false ? (
+        <div className="container">
+          <div
+            className="alert alert-danger alert-dismissible fade show"
+            role="alert"
+          >
+            <strong>No results found!</strong> Please check it.
+            <button
+              type="button"
+              className="close"
+              data-dismiss="alert"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 };

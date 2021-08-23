@@ -59,7 +59,6 @@ nav.nav-extended .nav-wrapper {
   text-align: center;
 }
 
-
 /*SEARCH*/
 .searchFrom {
   margin-top: 18px;
@@ -74,54 +73,56 @@ nav.nav-extended .nav-wrapper {
 
 .searchSubmit {
   background-color: #000;
-  color:#fff;
+  color: #fff;
   padding: 6px 16px;
   font-size: 15px;
   margin-left: 6px;
- 
 }
-
-
-
-
 
 /* LOGİN*/
 
-.login-wrapper{
+.login-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #232526;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   color: #ffffff;
 }
 
-.login-form{
-  border: 1px solid #E1E8ED;
+.login-form {
+  border: 1px solid #e1e8ed;
   border-radius: 10px;
   padding: 50px;
   width: 50vw;
   margin: 0 auto;
-  color: #F7F7F0;
+  color: #f7f7f0;
   text-align: center;
   font-family: sans-serif;
   font-size: 12px;
 }
 
-.login-form input{
+.login-form input {
   margin-bottom: 10px;
 }
 
-.login-form ::-webkit-input-placeholder{
+.login-form ::-webkit-input-placeholder {
   font-size: 14px;
 }
 
 .user-name-input,
-.password-input{
+.password-input {
   width: 100%;
   padding: 10px;
 
@@ -130,14 +131,14 @@ background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, 
 }
 
 .user-name-input:focus,
-.password-input:focus{
-  border: 1px solid #F7F4F0;
+.password-input:focus {
+  border: 1px solid #f7f4f0;
   outline: none;
 }
 
-.login-submit-button{
+.login-submit-button {
   width: 100%;
-  background: #AB9984;
+  background: #ab9984;
   padding: 10px;
   color: white;
   font-size: 16px;
@@ -145,44 +146,41 @@ background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, 
   border: none;
 }
 
-.login-submit-button:hover{
-  background-color: #C4AF97;
+.login-submit-button:hover {
+  background-color: #c4af97;
 }
-
-
 
 .login-icon-wrapper {
   margin-bottom: 20px;
 }
 
-
 /*contact*/
 
-.contact-form{
+.contact-form {
   background: white;
   margin-top: 10%;
   margin-bottom: 5%;
   width: 70%;
 }
-.contact-form .form-control{
-  border-radius:1rem;
+.contact-form .form-control {
+  border-radius: 1rem;
 }
-.contact-image{
+.contact-image {
   text-align: center;
 }
-.contact-image img{
+.contact-image img {
   border-radius: 6rem;
   width: 11%;
   margin-top: -3%;
   transform: rotate(29deg);
 }
-.contact-form form{
-  padding: 14%;
+.contact-form form {
+  padding: 10%;
 }
-.contact-form form .row{
+.contact-form form .row {
   margin-bottom: -7%;
 }
-.contact-form h3{
+.contact-form h3 {
   margin-bottom: 8%;
   margin-top: -10%;
   text-align: center;
@@ -198,8 +196,7 @@ background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, 
   color: #fff;
   cursor: pointer;
 }
-.btnContactSubmit
-{
+.btnContactSubmit {
   width: 50%;
   border-radius: 1rem;
   padding: 1.5%;
