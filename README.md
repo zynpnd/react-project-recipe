@@ -24,7 +24,8 @@ Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır. API i
    
    API'ye [buraya](https://developer.edamam.com/edamam-recipe-api) tıklayarak ulaşabilirsiniz.
    
-###  Dosya Yapısı
+##  Dosya Yapısı
+     Projenin dosya yapısı aşağıdaki gibidir:
 
     .
     ├── ...
