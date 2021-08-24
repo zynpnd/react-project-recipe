@@ -6,8 +6,11 @@ class Home extends Component {
   render() {
     return (
       <Header title="Amazing Recipes">
-        <Link to="recipes" className="text-uppercase btn btn-light btn-lg  ">
-          <i class="fas fa-search"></i>
+        <Link
+          to="recipes"
+          className="text-uppercase btn btn-secondary btn-lg mt-3"
+        >
+          SEARCH
         </Link>
       </Header>
     );

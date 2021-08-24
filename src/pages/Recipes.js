@@ -65,20 +65,22 @@ const Recipes = () => {
         />
       ))}
       {validate === false ? (
-        <div className="container">
-          <div
-            className="alert alert-danger alert-dismissible fade show"
-            role="alert"
-          >
-            <strong>No results found!</strong> Please check it.
-            <button
-              type="button"
-              className="close"
-              data-dismiss="alert"
-              aria-label="Close"
+        <div className="error">
+          <div className="container">
+            <div
+              className="alert alert-danger alert-dismissible fade show"
+              role="alert"
             >
-              <span aria-hidden="true">&times;</span>
-            </button>
+              <strong>No results found!</strong> Please check it.
+              <button
+                type="button"
+                className="close"
+                data-dismiss="alert"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
           </div>
         </div>
       ) : null}

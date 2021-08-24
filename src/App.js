@@ -13,6 +13,7 @@ import Home from "./pages/Home";
 import Recipes from "./pages/Recipes";
 import Default from "./pages/Default";
 import Login from "./pages/Login";
+import About from "./pages/About";
 import Contact from "./pages/Contact";
 
 const App = () => {
@@ -22,11 +23,13 @@ const App = () => {
   return (
     <Router>
       <main>
-        {/* navbar */}
+        {/* LOGİN 
         <Route path="/login">
           <Login setisLoggedIn={setisLoggedIn} />
-        </Route>
-        <Redirect from="*" to="/login" />
+        </Route> */}
+        {/*<Redirect from="*" to="/login" />*/}
+
+        {/* navbar */}
         <Navbar />
         <Switch>
           {/* <Route  path="/login" >
@@ -34,6 +37,7 @@ const App = () => {
              </Route>  */}
           <Route path="/" exact component={Home}></Route>
           <Route path="/recipes" component={Recipes}></Route>
+          <Route path="/about" component={About}></Route>
           <Route path="/contact" component={Contact}></Route>
           <Route component={Default}></Route>
         </Switch>
