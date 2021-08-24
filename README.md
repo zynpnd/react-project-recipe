@@ -7,7 +7,7 @@ Recipe App bir yemek tarifi arama  projesidir. Sitenin ana sayfasında arama but
 
 ## Teknik Detaylar
 
-Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır. API istekleri için axios kütüphanesinden yararlanılmıştır.
+Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır.Stillerin yazımı için CSS-IN-CSS metodu kullanılmıştır. API istekleri için Axios kütüphanesinden yararlanılmıştır.
 
 
 ## Çalıştırılması
