@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import image from "../assets/about-images.jpg";
 
 class Home extends Component {
   render() {
