@@ -22,7 +22,8 @@ class Home extends Component {
                 }}
               >
                 <a
-                  href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
+                  href="https://www.youtube.com/user/NefisYemekTarifleri"
+                  target="_blank"
                   className="venobox play-btn mb-4"
                   data-vbtype="video"
                   data-autoplay="true"
