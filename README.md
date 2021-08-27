@@ -24,15 +24,11 @@ Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır.Stille
 
   API'ye [buraya](https://developer.edamam.com/edamam-recipe-api) tıklayarak ulaşabilirsiniz.
 
-  
-
-
-  
   ##  Dosya Yapısı
     .
     ├── ...
     ├── src                     
-    │ ├── assets
+  │ ├── assets
     │ │ ├── 404-images.jpg
     │ │ ├── home-images.jpg
     │ │ ├── logo.png
@@ -64,3 +60,7 @@ Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır.Stille
     │ ├── App.js                          
     │ └── ...                             
     └── ...
+
+
+  
+ 
