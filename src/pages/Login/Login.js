@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
+import "./Login.css";
 
 // lgin olma kısmı
 const Login = ({ setisLoggedIn }) => {

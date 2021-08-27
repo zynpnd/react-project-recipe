@@ -1,0 +1,7 @@
+nav {
+  width: 100%;
+  background-color: black;
+}
+nav.nav-extended .nav-wrapper {
+  min-height: 30px;
+}

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Axios from "axios";
-import Search from "../components/Search";
+import Search from "../components/Search/Search";
 import RecipeList from "../components/RecipeList";
 
 const Recipes = () => {

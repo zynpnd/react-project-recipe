@@ -1,0 +1,19 @@
+/*SEARCH*/
+.searchFrom {
+  margin-top: 18px;
+}
+
+.searchInput {
+  padding: 6px 16px;
+  min-width: 200px;
+  max-width: 100vw;
+  font-size: 15px;
+}
+
+.searchSubmit {
+  background-color: #000;
+  color: #fff;
+  padding: 6px 16px;
+  font-size: 15px;
+  margin-left: 6px;
+}

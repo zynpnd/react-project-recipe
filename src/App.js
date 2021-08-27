@@ -7,14 +7,14 @@ import {
   Switch,
   Redirect,
 } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import About from "./pages/About/About";
+import Contact from "./pages/Contact/Contact";
 import Home from "./pages/Home";
 import Recipes from "./pages/Recipes";
 import Default from "./pages/Default";
-import Login from "./pages/Login";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
+import Login from "./pages/Login/Login";
 
 const App = () => {
   let initialLoggin = JSON.parse(localStorage.getItem("isLoggedIn"));
