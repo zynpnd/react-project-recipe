@@ -26,59 +26,41 @@ Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır.Stille
 
   
 ## Dosya Yapısı
+
   
-- Projenin dosya yapısı aşağıdaki gibidir:
-  
-  .
-  ├── ...
-  ├── src
-  │ ├── assets
-  │ │ ├── 404-images.jpg
-  │ │ ├── home-images.jpg
-  │ │ ├── logo.png
-  │ ├── components
-  │ │ ├── Footer
-  │ │ │ ├── Footer.css
-  │ │ │ ├── Footer.js
-  │ │ ├── Navbar
-  │ │ │ ├── Navbar.css
-  │ │ │ ├── Navbar.js
-  │ │ ├── Search
-  │ │ │ ├── Search.css
-  │ │ │ ├── Search.js
-  │ │ ├── Header.js
-  │ │ ├── RecipeList.js
-  │ ├── pages
-  │ │ ├── About
-  │ │ │ ├── About.css
-  │ │ │ ├── About.js
-  │ │ ├── Contact
-  │ │ │ ├── Contact.css
-  │ │ │ ├── Contact.js
-  │ │ ├── Login
-  │ │ │ ├── Login.css
-  │ │ │ ├── Login.js
-  │ │ ├── Default.js
-  │ │ ├── Home.js
-  │ │ ├── Recipes.js
-  │ ├── App.css
-  │ ├── App.js
-  │ └── ...
-  └── ...
-  
-   
-       .
+  ## Örnek Dosya Yapısı
+    .
     ├── ...
     ├── src                     
-    │   ├── components                      # Other Components
-    │   │   ├── addComment
-    │   │   │   ├── addComment.js
-    │   │   │   ├── index.js
-    │   │   ├── comment
-    │   │   │   ├── comment.js
-    │   │   │   ├── index.js
-    │   │   └── ... 
-    │   ├── App.js                          # Parent Component
-    │   └── ...                             # etc.
+    │ ├── assets
+    │ │ ├── 404-images.jpg
+    │ │ ├── home-images.jpg
+    │ │ ├── logo.png
+    │ ├── components
+    │ │ ├── Footer
+    │ │ │ ├── Footer.css
+    │ │ │ ├── Footer.js
+    │ │ ├── Navbar
+    │ │ │ ├── Navbar.css
+    │ │ │ ├── Navbar.js
+    │ │ ├── Search
+    │ │ │ ├── Search.css
+    │ │ │ ├── Search.js
+    │ │ ├── Header.js
+    │ │ ├── RecipeList.js
+    │ ├── pages
+    │ │ ├── About
+    │ │ │ ├── About.css
+    │ │ │ ├── About.js
+    │ │ ├── Contact
+    │ │ │ ├── Contact.css
+    │ │ │ ├── Contact.js
+    │ │ ├── Login
+    │ │ │ ├── Login.css
+    │ │ │ ├── Login.js
+    │ │ ├── Default.js
+    │ │ ├── Home.js
+    │ │ ├── Recipes.js
+    │ ├── App.js                          
+    │ └── ...                             
     └── ...
-  
