@@ -28,6 +28,7 @@ Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır.Stille
 
 - Projenin dosya yapısı aşağıdaki gibidir:
 
+  
   .
   ├── ...
   ├── src
@@ -64,3 +65,4 @@ Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır.Stille
   │ ├── App.js
   │ └── ...
   └── ...
+
