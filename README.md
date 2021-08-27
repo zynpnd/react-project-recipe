@@ -30,7 +30,6 @@ Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır.Stille
   
   ##  Dosya Yapısı
   - Projenin dosya yapısı aşağıdaki gibidir:
-  
     .
     ├── ...
     ├── src                     
