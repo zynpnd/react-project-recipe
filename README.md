@@ -27,8 +27,12 @@ Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır.Stille
  ## Örnek Dosya Yapısı
     .
     ├── ...
-    ├── src                     
-    │   ├── components                      # Other Components
+    ├── src
+    │   ├── assets                    
+    │ │ ├── 404-images.jpg
+    │ │ ├── home-images.jpg
+      │ │ ├── logo.png 
+    │   ├── components                    
     │   │   ├── addComment
     │   │   │   ├── addComment.js
     │   │   │   ├── index.js
@@ -36,8 +40,8 @@ Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır.Stille
     │   │   │   ├── comment.js
     │   │   │   ├── index.js
     │   │   └── ... 
-    │   ├── App.js                          # Parent Component
-    │   └── ...                             # etc.
+    │   ├── App.js                        
+    │   └── ...                            
     └── ...
 
   
