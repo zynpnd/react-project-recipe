@@ -24,42 +24,20 @@ Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır.Stille
 
   API'ye [buraya](https://developer.edamam.com/edamam-recipe-api) tıklayarak ulaşabilirsiniz.
   
-  
-  ## Örnek Dosya Yapısı
+ ## Örnek Dosya Yapısı
     .
     ├── ...
     ├── src                     
-    │ ├── assets
-    │ │ ├── 404-images.jpg
-    │ │ ├── home-images.jpg
-    │ │ ├── logo.png
-    │ ├── components
-    │ │ ├── Footer
-    │ │ │ ├── Footer.css
-    │ │ │ ├── Footer.js
-    │ │ ├── Navbar
-    │ │ │ ├── Navbar.css
-    │ │ │ ├── Navbar.js
-    │ │ ├── Search
-    │ │ │ ├── Search.css
-    │ │ │ ├── Search.js
-    │ │ ├── Header.js
-    │ │ ├── RecipeList.js
-    │ ├── pages
-    │ │ ├── About
-    │ │ │ ├── About.css
-    │ │ │ ├── About.js
-    │ │ ├── Contact
-    │ │ │ ├── Contact.css
-    │ │ │ ├── Contact.js
-    │ │ ├── Login
-    │ │ │ ├── Login.css
-    │ │ │ ├── Login.js
-    │ │ ├── Default.js
-    │ │ ├── Home.js
-    │ │ ├── Recipes.js
-    │ ├── App.js        
-    │ └── ...                             # etc.
+    │   ├── components                      # Other Components
+    │   │   ├── addComment
+    │   │   │   ├── addComment.js
+    │   │   │   ├── index.js
+    │   │   ├── comment
+    │   │   │   ├── comment.js
+    │   │   │   ├── index.js
+    │   │   └── ... 
+    │   ├── App.js                          # Parent Component
+    │   └── ...                             # etc.
     └── ...
 
   
