@@ -65,4 +65,21 @@ Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır.Stille
   │ ├── App.js
   │ └── ...
   └── ...
+  
+  
+## Örnek Dosya Yapısı
+    .
+    ├── ...
+    ├── src                     
+    │   ├── components                      # Other Components
+    │   │   ├── addComment
+    │   │   │   ├── addComment.js
+    │   │   │   ├── index.js
+    │   │   ├── comment
+    │   │   │   ├── comment.js
+    │   │   │   ├── index.js
+    │   │   └── ... 
+    │   ├── App.js                          # Parent Component
+    │   └── ...                             # etc.
+    └── ...
 
