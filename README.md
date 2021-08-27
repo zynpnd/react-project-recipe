@@ -66,7 +66,8 @@ Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır.Stille
   │ └── ...
   └── ...
   
-    .
+   
+       .
     ├── ...
     ├── src                     
     │   ├── components                      # Other Components
