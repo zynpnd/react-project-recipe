@@ -36,17 +36,32 @@ Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır.Stille
     │   │   ├── 404-images.jpg 
     │   │   ├── home-images.jpg 
     │   │   ├── logo.png
-    │   ├── components                      
-    │   │   ├── Footer.js
+    │   ├── components
+    │   │   ├── Footer
+    │   │   │   ├── Footer.css
+    │   │   │   ├── Footer.js
+    │   │   ├── Navbar
+    │   │   │   ├── Navbar.css
+    │   │   │   ├── Navbar.js
+    │   │   ├── Search
+    │   │   │   ├── Search.css
+    │   │   │   ├── Search.js
     │   │   ├── Header.js
-    │   │   ├── Navbar.js
     │   │   ├── RecipeList.js
-    │   │   ├── Search.js
     │   ├── pages
+    │   │   ├── About
+    │   │   │   ├── About.css
+    │   │   │   ├── About.js
+    │   │   ├── Contact
+    │   │   │   ├── Contact.css
+    │   │   │   ├── Contact.js
+    │   │   ├── Login
+    │   │   │   ├── Login.css
+    │   │   │   ├── Login.js
     │   │   ├── Default.js
     │   │   ├── Home.js
-    │   │   ├── Login.js
     │   │   ├── Recipes.js
-    │   ├── App.js                          
+    │   ├── App.css  
+    │   ├── App.js     
     │   └── ...                             
     └── ...
