@@ -62,6 +62,7 @@ const Recipes = () => {
           ingredients={recipe.recipe.ingredients}
           mealType={recipe.recipe.mealType}
           totalTime={recipe.recipe.totalTime}
+          persons={recipe.recipe.yield}
         />
       ))}
       {validate === false ? (

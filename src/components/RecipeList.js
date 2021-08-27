@@ -10,6 +10,7 @@ const RecipeList = (props) => {
     calories,
     mealType,
     totalTime,
+    persons,
   } = props;
   return (
     <>
@@ -57,6 +58,13 @@ const RecipeList = (props) => {
                     height="25px"
                   />
                   &nbsp; Total Time : {totalTime} mins &emsp;
+                  <br /> <br />
+                  <img
+                    src="https://static.thenounproject.com/png/3203628-200.png"
+                    width="25px"
+                    height="25px"
+                  />
+                  &nbsp; Serves : {persons} servings &emsp;
                 </p>
                 <br />
               </div>
