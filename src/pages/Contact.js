@@ -18,16 +18,16 @@ const Contact = () => {
                   name="txtName"
                   className="form-control"
                   placeholder="Your Name *"
-                  value=""
+                  required
                 />
               </div>
               <div className="form-group">
                 <input
-                  type="text"
+                  type="email"
                   name="txtEmail"
                   className="form-control"
                   placeholder="Your Email *"
-                  value=""
+                  required
                 />
               </div>
               <div className="form-group">
@@ -36,6 +36,7 @@ const Contact = () => {
                   className="form-control"
                   placeholder="Your Message *"
                   style={{ width: "100%", height: "200px" }}
+                  required
                 ></textarea>
               </div>
               <div className="form-group">
