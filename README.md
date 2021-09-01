@@ -1,5 +1,7 @@
 # 94. İstanbul Front-End Web Development Bootcamp Bitirme Projesi --- Recipe App
 
+Aranan herhangi bir yiyecek veya yemeğin bilgilerine göz atan ve bunları almak için Edamam API'sini kullanan bir projedir.
+
 ## Proje Kapsamı
 
 Bu proje, aranan herhangi bir yiyecek veya yemeğin bilgilerine göz atan ve bunları almak için Edamam API'sini kullanan açık kaynaklı  bir react projedir.
