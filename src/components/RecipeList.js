@@ -14,21 +14,20 @@ const RecipeList = (props) => {
   } = props;
   return (
     <>
-      <div className="col-10 mx-auto col-md-6 col-lg-4 my-3">
+      <div className="col-10 mx-auto col-md-12 col-lg-4 my-3">
         <div className="row">
-          <div class="col s10 m8">
-            <div class="card ">
-              <div class="card-image">
-                <img class="activator" src={image} />
-                <a class="btn-floating halfway-fab waves-effect waves-light red">
-                  <i class="material-icons">add</i>
-                </a>
-                <span class="card-title text-capitalize black">{title}</span>
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">
+          <div className="col s10 m8">
+            <div className="card ">
+              <div className="card-image">
+                <img className="activator" src={image} />
+                <span className="card-title text-capitalize black">
                   {title}
-                  <i class="material-icons right">more_vert</i>
+                </span>
+              </div>
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4">
+                  {title}
+                  <i className="material-icons right">more_vert</i>
                 </span>
                 <p>
                   {" "}
@@ -37,7 +36,7 @@ const RecipeList = (props) => {
                     width="25px"
                     height="25px"
                   />
-                  &nbsp; Calories :{Math.ceil(calories)} Cal &emsp;
+                  &nbsp; Calories :{Math.floor(calories)} Cal &emsp;
                   <img
                     src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNNDU0Ljk3Niw0My4wNTZjLTMuNTkxLTMuNTg4LTkuNDExLTMuNTkxLTEzLjAwMywwbC05NS4zMjksOTUuMzI2Yy0zLjU5MiwzLjU5MS0zLjU5Miw5LjQxMS0wLjAwMSwxMy4wMDMNCgkJCWMxLjc5NiwxLjc5NSw0LjE0OCwyLjY5Miw2LjUwMiwyLjY5MmMyLjM1MiwwLDQuNzA2LTAuODk3LDYuNTAyLTIuNjkybDk1LjMyOS05NS4zMjYNCgkJCUM0NTguNTY2LDUyLjQ2Nyw0NTguNTY2LDQ2LjY0Niw0NTQuOTc2LDQzLjA1NnoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCgk8Zz4NCgkJPHBhdGggZD0iTTQ4MC45LDY4LjU3MWMtMy41OTItMy41ODktOS40MTItMy41ODktMTMuMDAzLDBsLTk1LjMyOCw5NS4zMjhjLTMuNTksMy41OTItMy41OSw5LjQxMi0wLjAwMSwxMy4wMDMNCgkJCWMxLjc5NiwxLjc5NSw0LjE1LDIuNjkyLDYuNTAyLDIuNjkyYzIuMzUyLDAsNC43MDYtMC44OTcsNi41MDItMi42OTJMNDgwLjksODEuNTczQzQ4NC40OTEsNzcuOTgyLDQ4NC40OTEsNzIuMTYxLDQ4MC45LDY4LjU3MXoiDQoJCQkvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMzkwLjk2OSwyMjkuNTQ4TDUwOS4zMDcsMTExLjIxYzMuNTkxLTMuNTkyLDMuNTkxLTkuNDEyLDAtMTMuMDAzYy0zLjU5Mi0zLjU4OC05LjQxMi0zLjU5MS0xMy4wMDMsMEwzNzcuOTY4LDIxNi41NDUNCgkJCWMtMTQuNTc5LDE0LjU3OC0zNi44NzEsMTguNDAzLTU1LjQ3LDkuNTIxYy0zLjctMS43NjYtOC4xMTgtMC44NzMtMTAuODM5LDIuMTkzbC00MC4yMDksNDUuMzAzDQoJCQljLTAuMDE2LDAuMDE3LTAuMDM0LDAuMDMyLTAuMDUsMC4wNWMtMC4wMTYsMC4wMTgtMC4wMjgsMC4wMzctMC4wNDQsMC4wNTVMOTcuNTY3LDQ2OS40NjRjLTAuMDQ0LDAuMDUtMC4wODgsMC4xMDEtMC4xMzEsMC4xNTINCgkJCWMtMC41NzMsMC42NzMtMS4xMTQsMS4yNjQtMS42NjIsMS44MTNjLTExLjQ3NSwxMS40NzQtMzAuMTQ1LDExLjQ3My00MS42MTUsMGMtNS41NTgtNS41NTctOC42MTktMTIuOTQ4LTguNjE5LTIwLjgwOA0KCQkJczMuMDYxLTE1LjI1LDguNjI5LTIwLjgxOGMwLjUzNC0wLjUzNywxLjEyNC0xLjA3NiwxLjgwMy0xLjY1NGMwLjA1Mi0wLjA0MywwLjEwMi0wLjA4NywwLjE1Mi0wLjEzMWwxMDguNjQ4LTk2LjQzNA0KCQkJYzMuNzk4LTMuMzcxLDQuMTQzLTkuMTgyLDAuNzczLTEyLjk3OWMtMy4zNzEtMy43OTktOS4xODMtNC4xNDYtMTIuOTc5LTAuNzczTDQzLjk5LDQxNC4yMDINCgkJCWMtMS4wMzgsMC44ODUtMS45NjcsMS43NDItMi44MzMsMi42MDljLTkuMDMxLDkuMDMxLTE0LjAwNSwyMS4wMzgtMTQuMDA1LDMzLjgxYzAsMTIuNzcxLDQuOTczLDI0Ljc3OSwxNC4wMDQsMzMuODENCgkJCWM5LjMyMyw5LjMyMSwyMS41NjYsMTMuOTgyLDMzLjgxMiwxMy45ODFjMTIuMjQxLDAsMjQuNDg3LTQuNjU5LDMzLjgwMy0xMy45NzZjMC44ODMtMC44ODEsMS43MzgtMS44MTEsMi42MTYtMi44MzkNCgkJCWwxMzIuNDMyLTE0OS4yMDZsMTMyLjQzNCwxNDkuMjA4YzAuODc3LDEuMDI5LDEuNzMyLDEuOTU5LDIuNjA5LDIuODM0YzkuMzIxLDkuMzIxLDIxLjU2NSwxMy45ODEsMzMuODA5LDEzLjk4MQ0KCQkJYzEyLjI0NSwwLDI0LjQ5LTQuNjYxLDMzLjgxMi0xMy45ODJjMTguNjQtMTguNjQzLDE4LjY0LTQ4Ljk3NSwwLjAwNS02Ny42MTNjLTAuODgtMC44ODMtMS44MTEtMS43MzgtMi44MzgtMi42MTUNCgkJCWwtMTUyLjM5MS0xMzUuMjZsMjkuODE1LTMzLjU5MkMzNDUuMjMxLDI1My45MTEsMzcyLjU2NSwyNDcuOTQ5LDM5MC45NjksMjI5LjU0OHogTTQzMS41MTQsNDI4LjAxOQ0KCQkJYzAuMDUsMC4wNDQsMC4xMDEsMC4wODgsMC4xNTIsMC4xMzFjMC42NzMsMC41NzMsMS4yNjQsMS4xMTQsMS44MTMsMS42NjJjMTEuNDczLDExLjQ3NCwxMS40NzMsMzAuMTQzLDAuMDAxLDQxLjYxNQ0KCQkJYy0xMS40NzUsMTEuNDczLTMwLjE0NCwxMS40NzMtNDEuNjIyLTAuMDA1Yy0wLjU0My0wLjU0My0xLjA4Ni0xLjEzNS0xLjY1OS0xLjgwOGMtMC4wNDMtMC4wNTEtMC4wODctMC4xMDItMC4xMzEtMC4xNTINCgkJCUwyNTYuMTExLDMxOC41NGwyMi45MzktMjUuODQ1TDQzMS41MTQsNDI4LjAxOXoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCgk8Zz4NCgkJPHBhdGggZD0iTTQyNy4zNzksMTYuMjc4Yy0zLjU5Mi0zLjU4OS05LjQxMi0zLjU4OS0xMy4wMDMsMEwyOTYuMDQsMTM0LjYxN2MtMTguNDA2LDE4LjQwNC0yNC4zNjYsNDUuNzM1LTE1LjgwNyw2OS44OTcNCgkJCWwtMzYuNDE1LDMyLjMyMmwtMzQuOTk4LTMxLjA2NGMxOC4wOTktMzUuNjEyLDExLjQ5Mi03OC44NTEtMTcuMjIyLTEwNy41NjZjLTI4LjUxOC0yOC41MTgtNjEuNTUtNDguNTg3LTkzLjAxMS01Ni41MDgNCgkJCWMtMzIuODQzLTguMjY3LTYxLjAwMS0yLjc0OC03OS4yOTUsMTUuNTQ1cy0yMy44MTQsNDYuNDU1LTE1LjU0NSw3OS4yOTZjNy45MjIsMzEuNDU5LDI3Ljk5LDY0LjQ5MSw1Ni41MSw5My4wMDgNCgkJCWMyOC43MTQsMjguNzE2LDcxLjk1MiwzNS4zMjMsMTA3LjU2NiwxNy4yMjNjMCwwLDM0LjIyNSwzOC41NTgsMzQuNjU5LDM5LjA0OGMxLjgxNywyLjA0Nyw0LjM0MiwzLjA5LDYuODgsMy4wOQ0KCQkJYzIuMTcxLDAsNC4zNDktMC43NjQsNi4xLTIuMzE4bDgxLjg2Ni03Mi42NjRjMy4wNjUtMi43MjEsMy45NTgtNy4xNDEsMi4xOTMtMTAuODM5Yy04Ljg4NC0xOC42MDEtNS4wNTgtNDAuODkxLDkuNTIxLTU1LjQ2OA0KCQkJTDQyNy4zNzksMjkuMjgxQzQzMC45NywyNS42ODksNDMwLjk3LDE5Ljg2OSw0MjcuMzc5LDE2LjI3OHogTTIxMC4xMzEsMjY2LjczN2wtMzMuNDY4LTM3LjcwNg0KCQkJYy0yLjk2NC0zLjMzOS03LjkwMi00LjA2OS0xMS43MDItMS43MjJjLTI5LjQ3OCwxOC4xNzctNjcuMTg4LDEzLjc1NC05MS43MDQtMTAuNzYzYy0yNi4yMDQtMjYuMjAzLTQ0LjU1Ny01Ni4yMS01MS42OC04NC40OTcNCgkJCWMtNi42MjUtMjYuMzE3LTIuODE5LTQ4LjI2NywxMC43MTgtNjEuODAzQzQ1LjgzLDU2LjcwOCw2Ny43OCw1Mi45MDQsOTQuMDk2LDU5LjUzYzI4LjI4Nyw3LjEyMiw1OC4yOTYsMjUuNDc0LDg0LjQ5OCw1MS42NzgNCgkJCWMyNC41MTYsMjQuNTE1LDI4Ljk0LDYyLjIyNSwxMC43NjIsOTEuNzAzYy0yLjM0NCwzLjgwMS0xLjYxNyw4LjczNywxLjcyMiwxMS43MDJsMzguODg4LDM0LjUxNkwyMTAuMTMxLDI2Ni43Mzd6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="
                     width="25px"
@@ -68,7 +67,7 @@ const RecipeList = (props) => {
                 </p>
                 <br />
               </div>
-              <div class="card-action">
+              <div className="card-action">
                 <a
                   href={url}
                   target="_blank"
@@ -78,15 +77,15 @@ const RecipeList = (props) => {
                   Detail Url
                 </a>
               </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">
+              <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4">
                   {title}
-                  <i class="material-icons right">close</i>
+                  <i className="material-icons right">close</i>
                 </span>
-                <ul class="collection">
+                <ul className="collection">
                   {ingredients.map((ingredient) => (
                     <li className="collection-item avatar">
-                      <img src={ingredient.image} class="circle" />
+                      <img src={ingredient.image} className="circle" />
                       <span className="title">{ingredient.text}</span>
                     </li>
                   ))}

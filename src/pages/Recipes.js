@@ -45,12 +45,6 @@ const Recipes = () => {
         handleChange={handleChange}
         handleSubmit={handleSubmit}
       />
-      <div className="row">
-        <div className="col-10 mx-auto col-md-6 text-center  mb-3">
-          <h1 className="text-slanted">Recipe List</h1>
-        </div>
-      </div>
-
       {recipes.map((recipe) => (
         <RecipeList
           key={recipe.recipe.id}
