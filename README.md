@@ -68,6 +68,18 @@ Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır.Stille
 Home Page
 
 ![GitHub Logo](/image/home.png)
+
+About Page
+
+![GitHub Logo](/image/about.png)
+
+Recipe Page
+
+![GitHub Logo](/image/recipe.png)
+
+Contact Page
+
+![GitHub Logo](/image/contact.png)
   
   
   
