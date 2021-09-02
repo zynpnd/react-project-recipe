@@ -5,6 +5,7 @@ Aranan herhangi bir yiyecek veya yemeğin bilgilerine göz atan ve bunları alma
 ## Proje Kapsamı
 
 Bu proje, aranan herhangi bir yiyecek veya yemeğin bilgilerine göz atan ve bunları almak için Edamam API'sini kullanan açık kaynaklı  bir react projedir.
+
 Sitenin ana sayfasında arama butonu ile arama işleminin olduğu sayfaya yönlendirmektedir. Arama butonu ile gidilen sayfa da default olarak bir yemek tarifi listelenmektedir. Arama işlemine göre yemek tarifleri , malzemeleri , toplam zamanı ve yemeğin türü listelenmektedir.
 
 ## Teknik Detaylar
@@ -64,6 +65,7 @@ Proje React ile yazılmıştır. React Router ve Hooks kullanılmıştır.Stille
     │ └── ...                            
     └── ...
 
+## Ekran Görüntüleri
 
 Home Page
 
